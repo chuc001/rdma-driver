@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="fmain.cpp" />
+    <ClCompile Include="librays\imgui\imgui.cpp" />
+    <ClCompile Include="librays\imgui\imgui_demo.cpp" />
+    <ClCompile Include="librays\imgui\imgui_draw.cpp" />
+    <ClCompile Include="librays\imgui\imgui_impl_dx11.cpp" />
+    <ClCompile Include="librays\imgui\imgui_impl_win32.cpp" />
+    <ClCompile Include="librays\imgui\imgui_tables.cpp" />
+    <ClCompile Include="librays\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="game\km\kmbox\kmboxNet.cpp" />
+    <ClCompile Include="game\km\kmbox\my_enc.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="driver\driver.h" />
+    <ClInclude Include="game\offsets.h" />
+    <ClInclude Include="includes.h" />
+    <ClInclude Include="game\update_poiter.h" />
+    <ClInclude Include="menu\directx.h" />
+    <ClInclude Include="menu\overlay.h" />
+    <ClInclude Include="menu\render.h" />
+    <ClInclude Include="librays\Encrypt\safe_call.hpp" />
+    <ClInclude Include="librays\Encrypt\spoof_call.hpp" />
+    <ClInclude Include="librays\Encrypt\xorstr.hpp" />
+    <ClInclude Include="librays\ida\idadefs.hpp" />
+    <ClInclude Include="librays\ida\idadefs_2.hpp" />
+    <ClInclude Include="librays\imgui\hotkeys.h" />
+    <ClInclude Include="librays\imgui\image.h" />
+    <ClInclude Include="librays\imgui\imconfig.h" />
+    <ClInclude Include="librays\imgui\imgui.h" />
+    <ClInclude Include="librays\imgui\imgui_impl_dx11.h" />
+    <ClInclude Include="librays\imgui\imgui_impl_win32.h" />
+    <ClInclude Include="librays\imgui\imgui_internal.h" />
+    <ClInclude Include="librays\imgui\imstb_rectpack.h" />
+    <ClInclude Include="librays\imgui\imstb_textedit.h" />
+    <ClInclude Include="librays\imgui\imstb_truetype.h" />
+    <ClInclude Include="librays\imgui\stb_image.h" />
+    <ClInclude Include="game\render.h" />
+    <ClInclude Include="settings.h" />
+    <ClInclude Include="game\aimbot.h" />
+    <ClInclude Include="game\km\kmbox\HidTable.h" />
+    <ClInclude Include="game\km\kmbox\kmboxNet.h" />
+    <ClInclude Include="game\km\kmbox\my_enc.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="editorconfig" />
+  </ItemGroup>
+</Project>
